@@ -1,0 +1,29 @@
+/* Base styling for the feedback text */
+.feedback-text {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+/* Styling based on password strength */
+.password-weak {
+    background-color: #FFC0C0; /* Light red */
+    color: #D50000; /* Dark red */
+}
+
+.password-moderate {
+    background-color: #FFD580; /* Light orange */
+    color: #FFA000; /* Dark orange */
+}
+
+.password-strong {
+    background-color: #C0FFC0; /* Light green */
+    color: #007D00; /* Dark green */
+}
+
+/* Styling for mismatched passwords */
+.password-mismatch {
+    background-color: #FFC0C0; /* Light red */
+    color: #D50000; /* Dark red */
+}
